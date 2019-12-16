@@ -1,0 +1,11 @@
+<section id="author_show-<%= @author.id %>" >
+  <p> Author name: <%= @author.name %> </p>
+
+  <section id="author_show_books-<%= @author.id %>" >
+    <% @author.books.each do |book| %>
+      <p>Book Title: <%= book.title %> </p>
+    <% end %>
+  </section>
+
+  <p> Average Number of Pages: <%= @author.averagenumpages %> </p>
+</section>
