@@ -1,11 +1,11 @@
 <h3> All books </h3>
 
   <% @books.each do |book| %>
-    <section id="book-<%= book.id %>" >
-      <p> title:<%= book.title%> </p>
-      <p> publication_year:<%= book.publication_year%> </p>
-      <p> pages:<%= book.pages%> </p>
+    <section id="book-<%= book.id %>", class="boxedblue">
+      <p> <strong>title: </strong> <%= book.title%> </p>
+      <p> <strong>publication_year: </strong> <%= book.publication_year%> </p>
+      <p> <strong>pages: </strong> <%= book.pages%> </p>
       
-      <p> <%=  link_to book.authors.first.name, "authors/#{book.authors.first.id}" %> </p>
+      <p> <strong>author: </strong> <%=  link_to book.authors.first.name, "authors/#{book.authors.first.id}" %> </p>
     </section>
   <% end %>
