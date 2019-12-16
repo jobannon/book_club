@@ -21,11 +21,17 @@ RSpec.describe "as a user" do
       end
 
       expect(current_path).to eq("/authors/#{@author_1.id}")
+      
 
-      expect(page).to have_content(@author_1.name)
-      expect(page).to have_content(@book_1.title)
-      expect(page).to have_content(@book_4.title)
-      expect(page).to have_content("1075.5")
+      within "#author_show-#{@author_1.id}" do 
+        expect(page).to have_content(@author_1.name)
+        expect(page).to have_content("1075.5")
+
+        within "#author_show_books-#{@author_1.id}" do 
+          expect(page).to have_content(@book_1.title)
+          expect(page).to have_content(@book_4.title)
+        end
+      end
     end
   end
 end 
