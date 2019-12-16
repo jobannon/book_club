@@ -1,0 +1,145 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/josho/turing/2module/projects/book_club/spec/features/books/index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        6,
+        6,
+        6,
+        6,
+        6,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/spec/models/author_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/models/author.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/spec/models/book_author_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/models/book_author.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/spec/models/book_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/models/book.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/controllers/books_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/josho/turing/2module/projects/book_club/app/controllers/authors_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1576475490
+  }
+}
